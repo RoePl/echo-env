@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name='echo-env',         # How you named your package folder (MyLib)
   packages=['echo_env'],   # Chose the same as "name"
-  version='0.1.1',
+  version='0.1.2',
   description='A package for configuring projects with large environments',
   author='Roe Ploutno',                   # Type in your name
   author_email='roe.ploutno@gmail.com',      # Type in your E-Mail
