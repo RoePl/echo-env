@@ -1,7 +1,7 @@
 from inspect import isfunction
 from os import environ
 from abc import abstractmethod
-from wrappers import Proxy, Descriptor, DualMeta, ModelType
+from .wrappers import Proxy, Descriptor, DualMeta, ModelType
 
 
 class NodeType(DualMeta, ModelType):

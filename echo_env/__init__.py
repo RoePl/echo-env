@@ -1,4 +1,4 @@
-from accessors import Branch, Bundle
+from .accessors import Branch, Bundle
 
 
 def __getattr__(name):
